@@ -1,0 +1,549 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+width: auto;
+height: 75px;
+background-color: #272727;
+display:flex; /*Розміщуєм блоки так, щоб вони йшли один за іншим по горизонталі а не вертикалі*/
+justify-content:space-between; /*Вирівнюєм елементи в межах header по ширині по горизонталі*/
+align-items:center; /*Вирівнюєм елементи в межах header по центру по вертикалі*/
+padding:0px 25px;
+}
+
+header{   
+position: relative;
+}
+.logfut{
+width: 129px; 
+    border:1px solid #272727;
+}
+
+.logfut{
+float: left;
+right: -176px;
+width: 50px;
+height: 50px;    
+}
+
+
+
+.futabout{
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+text-align: center; 
+color: white;
+max-width:70%; /*Обмеження на максимальну ширину блоку*/
+}
+
+.futabout a{ /*Для всіх посилань в межах блоку .futabout*/
+	display:inline-block; /*Переключаєм режим відображення елементу для того, щоб для нього можна було застосувати margin і padding*/
+	padding:10px 25px;
+	text-decoration:none; /*Забираєи підкреслення в посилання*/
+	color:#fff;
+	border-radius:12px; /*Округляєм рамку*/
+	transition: 0.3s; /*Встановлюєм час плавного переходу в 0.3 секунди*/
+}
+.futabout a:hover{ /*При наведенні на посилання*/
+	color:#272727; 
+	background:#fff;
+}
+
+.futgolovna img{
+    display: flex;
+    background: url(img_1/futicon_golovnastora.png);
+    background-size: cover;
+    
+    
+}
+
+
+.VersusFP{
+   
+width:auto;
+height: 100%;
+display:flex; 
+justify-content:space-between;
+align-items:center; 
+    background: url(img_1/1_23.png);
+    height: 720px;
+    background-size: cover;
+    width: auto;
+}
+
+.fifaPM_AP{
+    padding-top:20px;
+}
+.fifaPM_AP p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 80px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+    padding-left: 133px;
+    padding-top: 200px;
+    text-decoration:none;
+}
+.fifaPM_AP p{
+    width: 885px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+    padding-left: 133px;
+    padding-top: 10px;
+    
+}
+
+.kvadratknopka_FM{
+  width: 238px;
+  height: 55px;
+  border: solid 4px #ffffff; 
+    margin-top: 10px;
+    margin-left: 133px;
+  
+}
+
+.kvadratknopka_FM a{
+  width: 100%;
+  height: 17px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+    border:0;
+      outline:0;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+     padding-top: 10px;
+    padding-left: 2px;
+    text-decoration:none;
+}
+    
+
+
+.kvadratknopka_FM{
+display: flex;
+justify-content: space-between;
+    
+}
+.kvadratknopka_FM:hover a{color:silver}
+.kvadratknopka_FM:hover {
+  background:#ffffff;
+  
+} 
+
+
+
+.buttons{
+    display: flex;
+}
+.button-dropdown{
+      position:relative;
+      padding: 15px 30px;
+      background:#FFC300;
+      border:0;
+      outline:0;
+      cursor:pointer;
+    margin-left:15px;
+
+    }
+    .button-text{
+      font-family:'Oswald', sans-serif;
+      font-size:17pt;
+    }
+    .button-dropdown-container{
+      position:absolute;
+      width:100%;
+      left:0;
+      top:100%;
+      background:#FFC300;
+      transform-origin: top center;
+      transform: scaleY(0);
+      transition:.3s;
+             
+    }
+    .dropdown-item{
+      left:0;
+      top:0;
+      margin-top:2px;
+        margin-bottom: 2px;
+    }
+    .dropdown-item a{
+        display: flex;
+        justify-content: center;
+    }
+    .button-dropdown:hover .button-dropdown-container{
+      transform: scaleY(1);
+    }
+
+
+
+.welcome{
+   font-family:'Oswald', sans-serif;
+      font-size:35pt; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.soc_sub{
+width: auto;
+height: 50px;
+background-color: #757575;
+display:flex;
+justify-content:space-between;
+padding:0px 50px; 
+align-items:center;
+}
+
+.soc_sub p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase; 
+  align-items:center;
+}
+
+.facebook_icon{
+  width: 225px;
+  height: 43px;
+  display:flex;
+  justify-content:space-between;
+  padding:0px 70px;
+} 
+
+.YTicon{
+  width: 49px;
+  height: 35px;      
+}
+
+.VersusFP2{
+height: 500px; 
+background: url(img_1/neymar2.png);
+background-size:cover;
+}
+.WDF{
+    padding-top:140px;
+}
+.WDF p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.Rozdil1 p{
+  opacity: 0.6;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.5);
+   
+      
+}
+
+.Rozdil1 p{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+
+.KnopkaFIFA{
+  width: 308px;
+  height: 59px;
+  border-radius: 5px;
+  background: url(Knopky/KnopkaFIFADownload.png);
+  display:flex;
+  justify-content:center;
+  align-items:center; 
+    margin-top:40px;
+}
+
+.KnopkaFIFA a{
+font-family: Roboto;
+font-size: 25px;
+color: white;
+padding: 0px 100px;    
+}
+
+.KnopkaFIFA{
+  display:flex;
+  justify-content:space-between;
+}
+
+.braks{
+  width: auto;
+  height: 50px;
+  background-color: #ff8207;   
+}
+
+.VersusMessi{
+background: url(img_1/Messi2.png);
+background-size: cover;    
+width: 100%;
+height: 500px;  
+    position:relative;
+}
+
+
+.WDP{
+    padding-top:140px;
+    
+    
+}
+.WDP p{
+width: auto;       
+  font-family: 'Oswald', sans-serif;    
+  font-size: 50px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+}
+.Rozdil2 p{    
+  opacity: 0.6;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0px 0px;   
+}
+
+.Rozdil2 p{
+  font-family: Roboto;
+  font-weight: 1000;
+  font-size: 15px;
+}
+
+.KnopkaPES{
+  width: 308px;
+  height: 59px;
+  border-radius: 5px;
+  background: url(Knopky/KnopkaPESDownload.png);
+  padding-right: 0px 0px;
+    display:flex;
+  justify-content:center;
+  align-items:center; 
+    position:absolute;
+    right:10px;
+    margin-top:40px;
+}
+
+.KnopkaPES a{
+font-family: Roboto;
+font-size: 25px;
+color: white;
+padding: 0px 100px;    
+}
+
+.KnopkaPES{
+      
+    
+}
+
+.logoFIFA20{
+  width: 208px;
+  height: 133px;    
+}
+
+.FF1P{
+  width: 100%;
+  height: 1200px;
+  background-color: #2d2438;    
+display: flex;
+    justify-content:space-around;
+}
+
+
+
+
+
+.soc_sub1{
+width: auto;
+height: 50px;
+background-color: #990119;
+display:flex;
+justify-content:space-between;
+padding:0px 50px; 
+align-items:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.whiteShapka{
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+}
+
+.KRPL{
+    
+  font-size: 5px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  justify-content:space-between;
+  padding:50px 30px;
+  text-align: center;
+       
+}
+.KRPL p{
+    font-family: Roboto;  
+    color: #409a90; 
+    font-size:15px;
+}
+
+.Grend{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  padding: 30px 65px;    
+  color: #409a90;
+}
+
+.VersusFP55{
+height: 500px; 
+background: url(img_1/1_353.png);
+background-size:cover;
+}
+.WDF{
+    padding-top:140px;
+}
+
+.soc_sub25{
+width: auto;
+height: 50px;
+background-color: #2d65cb;
+display:flex;
+justify-content:space-between;
+padding:0px 50px; 
+align-items:center;
+}
+.VersusFP65{
+height: 500px; 
+background: url(img_1/1_567.png);
+background-size:cover;
+}
+.WDF{
+    padding-top:140px;
+}
+
+.liniika{
+  width: auto;
+  height: 50px;
+  background-color: #757575;   
+}
+
+.preloader-container{
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 9999;
+    width:100vw;
+    height:100vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+

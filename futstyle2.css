@@ -1,0 +1,586 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+width: auto;
+height: 75px;
+background-color: #272727;
+display:flex; /*Розміщуєм блоки так, щоб вони йшли один за іншим по горизонталі а не вертикалі*/
+justify-content:space-between; /*Вирівнюєм елементи в межах header по ширині по горизонталі*/
+align-items:center; /*Вирівнюєм елементи в межах header по центру по вертикалі*/
+padding:0px 25px;
+}
+
+header{   
+position: relative;
+}
+.logfut{
+width: 129px; 
+    border:1px solid #272727;
+}
+
+.logfut{
+float: left;
+right: -176px;
+width: 50px;
+height: 50px;    
+}
+
+
+
+.futabout{
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+text-align: center; 
+color: white;
+max-width:70%; /*Обмеження на максимальну ширину блоку*/
+}
+
+.futabout a{ /*Для всіх посилань в межах блоку .futabout*/
+	display:inline-block; /*Переключаєм режим відображення елементу для того, щоб для нього можна було застосувати margin і padding*/
+	padding:10px 25px;
+	text-decoration:none; /*Забираєи підкреслення в посилання*/
+	color:#fff;
+	border-radius:12px; /*Округляєм рамку*/
+	transition: 0.3s; /*Встановлюєм час плавного переходу в 0.3 секунди*/
+}
+.futabout a:hover{ /*При наведенні на посилання*/
+	color:#272727; 
+	background:#fff;
+}
+
+.circle_container{
+	width:100px;
+	margin: auto;
+	display:flex;
+	justify-content:space-between;
+	position:relative;
+	top:120px;
+	
+
+}
+.circle_container label{
+	width:20px;
+	height:20px;
+	border-radius:20px;
+	border:1px solid #fff;
+	cursor:pointer;
+	transition:.3s;
+}
+.circle_container label:hover{
+	background:#fff;
+}
+.gg_global{
+	background-size:cover !important;
+	transition:.5s;
+}
+#gg_p_l_f{
+	background:#fff;
+}
+
+#gg_p_first:checked ~ .GG_P{
+	background-image: url(img_1/1_24.png);
+} 
+#gg_p_second:checked ~ .GG_P{
+	background-image: url(img_1/1_26.png);
+}
+#gg_p_third:checked ~ .GG_P{
+	background-image: url(img_1/1_27.png);
+}
+
+
+
+
+.sculka a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.circle{
+	display:none;
+}
+
+.GG_P{
+    width: 100%;
+    height: 720px;
+	position:relative;
+}
+
+.FIFAseria{
+    padding-top:170px;
+}
+.FIFAseria p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 80px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+    padding-left: 133px;
+}
+.fifaseriap p{
+    width: 885px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+    padding-left: 133px;
+    padding-top: 10px;
+    opacity: 0.4;
+}
+
+.kvadratknopka{
+  width: 238px;
+  height: 55px;
+  border: solid 4px #ffffff; 
+    margin-top: 40px;
+    margin-left: 133px;
+  
+}
+
+.kvadratknopka a{
+  width: 100%;
+  height: 17px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+     padding-top: 10px;
+    padding-left: 2px;
+}
+    
+
+
+.kvadratknopka{
+display: flex;
+    justify-content: space-between;
+    
+}
+
+.kvadratknopka:hover {
+  background:#ffffff;
+  
+} 
+
+.kvadratknopka:hover a{
+color: black;
+    
+}
+
+
+
+.GG_O{
+    background: url(img_1/1_25.png);
+    margin-bottom: 0;
+    padding: 0;
+    width: auto;
+    height: 300px;
+}
+
+.FIFAhistory{ 
+    padding-top:60px;
+}
+
+.FIFAhistory p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 80px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+    padding-right: 133px;
+} 
+    
+.fifhistory {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+    padding-left: 396px;
+    padding-top: 10px;
+    opacity: 0.4;
+    width: 892px;
+}
+
+
+
+
+
+
+
+
+
+
+.Dark_1{
+  width: auto;
+  height: auto;
+  background-color: #000000;
+  padding:40px;
+
+}
+.Dark_1  div{
+	margin: 0 auto;
+}
+
+.zagolovok{
+font-family:'Oswald', sans-serif;
+font-size: 60px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+    padding-top: 10px;
+
+}
+
+.FIFA-International-Soccer-FIFA-International-Soccer {
+  width: 1274px;
+  height: 300px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+    padding-top: 60px;
+    background: url(img_1/totsffevent.png);
+}
+
+
+
+
+
+.FIFA-International-Soccer-FIFA-International-Soccer .text-style-1 {
+  font-weight: bold;
+}
+
+
+.FIFA-Soccer-95-Next-Generation-Soccer {
+  width: 1274px;
+  height: 300px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+    position: relative;
+ 
+  color: #ffffff;
+  
+    padding-top: 60px;
+      background: url(img_1/kinoweek.png);
+    background-size: cover;
+}
+
+.FIFA-Soccer-95-Next-Generation-Soccer- .text-style-1 {
+  font-weight: bold;
+}
+
+.FIFA-97-Emotion-Captured {
+  width: 1274px;
+  height: 300px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+    padding-top: 60px;
+      background: url(img_1/hazard_event.png);
+    background-size: cover;
+}
+
+
+.FIFA-97-Emotion-Captured- .text-style-1 {
+  font-weight: bold;
+}
+
+.FIFA-Road-to-World-Cup-98-Your-only-goal-qualify {
+  width: 1267px;
+  height: 300px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+        position: relative;
+    
+  color: #ffffff;
+    padding-top: 60px;
+    background: url(img_1/easterevent.png);
+    background-size: cover;
+    
+}
+
+.FIFA-Road-to-World-Cup-98-Your-only-goal-qualify .text-style-1 {
+  font-weight: bold;
+}
+
+
+
+.FIFA-99-All-The-Clubs-Leagues-and-Cups {
+  width: 1288px;
+  height: 300px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+    padding-top: 60px;
+    background: url(img_1/picnicevent.png);
+    background-size: cover;
+}
+
+.FIFA-99-All-The-Clubs-Leagues-and-Cups- .text-style-1 {
+  font-weight: bold;
+}
+
+
+.FIFA-2000-Its-Only-Us {
+  width: 1285px;
+  height: 300px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+        position: relative;
+    
+  color: #ffffff;
+    
+    padding-top: 60px;
+    background: url(img_1/toptransferevent.png);
+    background-size: cover;
+}
+
+.FIFA-2000-Its-Only-Us- .text-style-1 {
+  font-weight: bold;
+}
+
+
+.FIFA-2001-Moby-Bodyrock-Window {
+  width: 1274px;
+  height: 300px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+    padding-top: 60px;
+background: url(img_1/iconsfm.png);
+    background-size: cover;
+}
+
+.FIFA-2001-Moby-Bodyrock-Window .text-style-1 {
+  font-weight: bold;
+}
+.toggles{
+	width:460px;
+	margin:0 auto;
+	display:flex;
+	margin-top:40px;
+}
+.toggle{
+	color:#fff;
+	font-family:Roboto;
+	width:30px;
+	height:30px;
+	border:2px solid #fff;
+	border-radius:30px;
+	display:flex;
+	justify-content:center;
+	align-items:Center;
+	transition:.3s;
+	cursor:pointer;
+}
+.toggle:hover{
+	background:#fff;
+	color:#000;
+}
+.toggle-active{
+	background:#fff;
+	color:#000;
+}
+.game-list-outer{
+	width:90%;
+	height:auto;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+	height:300px;
+}
+.game-list-inner{
+	position:relative;
+}
+.game-series-item{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.whiteShapka{
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+}
+
+.KRPL{
+    
+  font-size: 5px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  justify-content:space-between;
+  padding:50px 50px;
+  text-align: center;
+       
+}
+.KRPL p{
+    font-family: Roboto;  
+    color: #409a90; 
+    font-size:15px;
+}
+
+.Grend{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  padding: 30px 65px;    
+  color: #409a90;
+}
+
+
+.preloader-container{
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 9999;
+    width:100vw;
+    height:100vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

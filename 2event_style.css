@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+width: auto;
+height: 75px;
+background-color: #272727;
+display:flex; /*Розміщуєм блоки так, щоб вони йшли один за іншим по горизонталі а не вертикалі*/
+justify-content:space-between; /*Вирівнюєм елементи в межах header по ширині по горизонталі*/
+align-items:center; /*Вирівнюєм елементи в межах header по центру по вертикалі*/
+padding:0px 25px;
+}
+
+header{   
+position: relative;
+}
+.logfut{
+width: 129px; 
+    border:1px solid #272727;
+}
+
+.logfut{
+float: left;
+right: -176px;
+width: 50px;
+height: 50px;    
+}
+
+
+
+.futabout{
+font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+text-align: center; 
+color: white;
+max-width:70%; /*Обмеження на максимальну ширину блоку*/
+}
+
+.futabout a{ /*Для всіх посилань в межах блоку .futabout*/
+	display:inline-block; /*Переключаєм режим відображення елементу для того, щоб для нього можна було застосувати margin і padding*/
+	padding:10px 25px;
+	text-decoration:none; /*Забираєи підкреслення в посилання*/
+	color:#fff;
+	border-radius:12px; /*Округляєм рамку*/
+	transition: 0.3s; /*Встановлюєм час плавного переходу в 0.3 секунди*/
+}
+.futabout a:hover{ /*При наведенні на посилання*/
+	color:#272727; 
+	background:#fff;
+}
+
+.ivint_2{
+ background: url(img_1/EVENT_GOLDENWEEK.png);
+width: 100%;
+    height: 360px;
+    background-size: cover;
+}
+
+.linia_14{
+    
+  width: auto;
+  height: 10px;
+  background-color: #c27502;   
+}
+
+.informacia_tots1 {
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: left;
+  position: relative;
+  color: black;
+  padding-top: 10px;
+  width: 1274px;
+  height: 300px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-left: 20px;  
+  padding-top: 30px;    
+}
+
+.play_skill{
+ font-family: Roboto;
+  font-size: 16px;
+  text-align: left;
+  position: relative;
+  color: black;
+  padding-top: 20px;
+  width: 1280px;
+  height: 480px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;     
+}
+
+.rewards_1 img{
+width: 600px;
+height: 200px;  
+padding-top: 10px;    
+}
+
+.rewards_2 img{
+width: 600px;
+height: 150px;  
+padding-top: 10px;    
+}
+
+.rewards_3 img{
+width: 600px;
+height: 150px;  
+padding-top: 10px;    
+}
+
+
+.rewards_4 img{
+width: 600px;
+height: 130px;  
+padding-top: 10px;    
+}
+
+.rewards_5 img{
+width: 600px;
+height: 200px;  
+padding-top: 10px;    
+}
+
+.whiteShapka{
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+}
+
+.KRPL{
+    
+  font-size: 5px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  justify-content:space-between;
+  padding:50px 30px;
+  text-align: center;
+       
+}
+.KRPL p{
+    font-family: Roboto;  
+    color: #409a90; 
+    font-size:15px;
+}
+
+.Grend{
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  padding: 30px 65px;    
+  color: #409a90;
+}
